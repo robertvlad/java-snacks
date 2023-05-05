@@ -1,5 +1,11 @@
 package org.lessons.java;
 
-public class JavaSnack8 {
+import java.util.Scanner;
 
+public class JavaSnack8 {
+	
+	public static void main(String[] args) {
+		
+		
+	}
 }
