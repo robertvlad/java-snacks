@@ -31,3 +31,7 @@ Several small programs created with java.
 
 11 ) Richiede un valore all'utente e poi calcola tutti i numeri interi che dividono esattamente quel valore.
 
+12 ) Generare un array che sia composto dal primo array concatenato al secondo array.
+
+13 ) Generare due array che saranno la copia degli array originali con il primo valore swappato e stamparli.
+
