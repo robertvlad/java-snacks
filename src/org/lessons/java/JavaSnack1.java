@@ -17,5 +17,4 @@ public class JavaSnack1 {
 		sc.close();
 		
 	}
-
 }
