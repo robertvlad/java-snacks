@@ -31,11 +31,11 @@ public class JavaSnack6 {
 			somma += randNum;
 		}
 		
+		// se si vuole vedere l'ultimo numero sotto il limite, altrimenti cancellare riga 34 per vedere il primo numero che supera il limite;		
 		somma -= randNumOut;
 		
 		System.out.println("La somma più vicina al limite è: " + somma);
 		
 		sc.close();
 	}
-
 }
