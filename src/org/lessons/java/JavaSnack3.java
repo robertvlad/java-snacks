@@ -14,14 +14,11 @@ public class JavaSnack3 {
 		
 		int somma = 0; 
 		
-		for ( int i = 0; i < numeri.length; i++) {
+		for ( int i = 1; i < numeri.length; i+=2) {
 			
 			int numero = numeri[i];
-			
-			if (numero % 2 != 0) {
 				
-				somma += numero;
-			}
+			somma += numero;
 		}
 		
 		System.out.println(somma);
