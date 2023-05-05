@@ -10,21 +10,25 @@ public class JavaSnack4 {
 		
 		String parola = sc.nextLine();
 		
-		char[] lettere = parola.toCharArray();
+		Boolean flag = false; 
 		
-		char ch;
-		
-		String parolaReverse = "";
-		
-		for ( int i = (lettere.length - 1); i >= 0; i--) {
+		for ( int i = 0; i < parola.length() / 2; i++) {
 			
-			ch = lettere[i];
+			int x = parola.length() - i - 1;
 			
-			parolaReverse = ch + parolaReverse;
+			if ( parola.charAt(i) != (parola.charAt(x)) ) {
+				
+				flag = true;			
+			}
 		}
 		
-		System.out.println(parolaReverse);
-		
+		if (flag) {
+			
+			System.out.println("Non palindroma");
+		}
+		else {
+			System.out.println("Palindroma");
+		}
 		
 		
 		sc.close();
