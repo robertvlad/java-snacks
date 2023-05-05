@@ -28,11 +28,8 @@ public class JavaSnack4 {
 		}
 		else {
 			System.out.println("Palindroma");
-		}
-		
+		}		
 		
 		sc.close();
-		
 	}
-
 }

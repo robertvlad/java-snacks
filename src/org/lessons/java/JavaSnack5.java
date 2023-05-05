@@ -16,7 +16,8 @@ public class JavaSnack5 {
 		
 		int somma = 0,
 			sommaPari = 0,
-					x = 0;
+			x = 0;
+		
 		double media = 0,
 				mediaDispari = 0;
 		
@@ -58,6 +59,8 @@ public class JavaSnack5 {
 			
 			// minimo di tutti i valori;
 			
+						
+			
 			// massimo di tutti i valori;
 		
 			
@@ -70,8 +73,8 @@ public class JavaSnack5 {
 		System.out.println("La somma dei numeri pari è: " + sommaPari);
 		System.out.println("La media dei numeri è: " + media);
 		System.out.println("La media dei numeri disapri è: " + mediaDispari);
-		System.out.println("Il minimo di tutti i valori è: " + somma);
-		System.out.println("Il massimo di tutti i valori è: " + somma);
+		System.out.println("Il minimo di tutti i valori è: " );
+		System.out.println("Il massimo di tutti i valori è: ");
 		
 		sc.close();
 	}
